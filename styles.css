@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo a {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .search-bar input {
+    padding: 8px;
+    width: 400px;
+    border-radius: 4px;
+    border: none;
+}
+
+.navbar .search-bar button {
+    padding: 8px 15px;
+    background-color: #ff8c00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.navbar .search-bar button:hover {
+    background-color: #ffb84d;
+}
+
+.navbar .nav-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.product-listing {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
